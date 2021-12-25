@@ -1,0 +1,31 @@
+{
+"hotword" : "кексик",
+
+  "contexts" : {
+    "запусти" : "run",
+    "музыка" : "player",
+    "скажи" : "sey"
+  },
+
+
+  "run" : {
+    "браузер" : "waterfox 2> /dev/null &",
+    "телеграмм": "telegram-desktop 2> /dev/null &",
+    "торрент" : "transmission-gtk 2> /dev/null &",
+    "browser" : "waterfox 2>&1 /dev/null &",
+    "telegram": "telegram-desktop 2> /dev/null &",
+    "torrent" : "transmission-gtk 2> /dev/null &"
+  },
+
+  "player" : {
+    "все" : "-a",
+    "пауза" : "play-pause",
+    "дальше" : "next",
+    "следующая" : "next",
+    "назад" : "previous",
+    "вперед" : "next",
+    "браузер" : "--player=firefox,%any",
+    "видео" : "--player=mpv,%any",
+    "телеграмм" : "--player=tdesktop,%any"
+    }
+  }
